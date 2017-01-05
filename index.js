@@ -9,20 +9,6 @@ if (detect.all('class', 'spread', 'let', 'arrowFunction')){
 }
 var data;
 
-gsjson({
-    spreadsheetId: '1NW-wDCe35LgUoB5jwbkUhn_pkIbhigvkfeSS5GcUhOQ',
-    // other options...
-})
-.then(function(result) {
-    console.log(result.length);
-    console.log(result);
-    data = result;
-})
-.catch(function(err) {
-    console.log(err.message);
-    console.log(err.stack);
-    data = {msg: err.message};
-});
 
 var app = express();
 
@@ -40,8 +26,24 @@ app.get('/', function(request, response) {
   response.render('pages/index',{jsFile:file});
 });
 app.get('/getData/', function(request, response) {
-  response.setHeader('Content-Type', 'application/json');
-response.send(JSON.stringify(data));
+    gsjson({
+        spreadsheetId: '1NW-wDCe35LgUoB5jwbkUhn_pkIbhigvkfeSS5GcUhOQ',
+        // other options...
+    })
+        .then(function(result) {
+            console.log(result.length);
+            console.log(result);
+            data = result;
+            response.setHeader('Content-Type', 'application/json');
+            response.send(JSON.stringify(data));
+
+        })
+        .catch(function(err) {
+            console.log(err.message);
+            console.log(err.stack);
+            data = {msg: err.message};
+        });
+
 
 });
 app.listen(app.get('port'), function() {
