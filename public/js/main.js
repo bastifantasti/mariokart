@@ -21,27 +21,27 @@ $(document).ready(function () {
             ranking = ['Inan','Sebastian'];
             $('#rank1name').text('Inan');
             $('#rank1count').text('won: '+p1+ 'Cups');
-            $('#rank1img').attr('src', '/images/mk9.gif');
+            $('#rank1img').attr('src', '/images/mk9.GIF');
             $('#rank2name').text('Sebastian');
             $('#rank2count').text('won: '+p2+ 'Cups');
-            $('#rank2img').attr('src', '/images/mk7.gif');
+            $('#rank2img').attr('src', '/images/mk7.GIF');
 
         }else if(p2>p1){
             ranking = ['Sebastian','Inan'];
             $('#rank2name').text('Inan');
             $('#rank2count').text('won: '+p1+ 'Cups');
-            $('#rank2img').attr('src', '/images/mk9.gif');
+            $('#rank2img').attr('src', '/images/mk9.GIF');
             $('#rank1name').text('Sebastian');
             $('#rank1count').text('won: '+p2+ 'Cups');
-            $('#rank1img').attr('src', '/images/mk7.gif');
+            $('#rank1img').attr('src', '/images/mk7.GIF');
         }else{
             ranking = ['both','both'];
             $('#rank2name').text('Inan');
             $('#rank2count').text('won: '+p1+ 'Cups');
-            $('#rank2img').attr('src', '/images/mk9.gif');
+            $('#rank2img').attr('src', '/images/mk9.GIF');
             $('#rank1name').text('Sebastian');
             $('#rank1count').text('won: '+p2+ 'Cups');
-            $('#rank1img').attr('src', '/images/mk7.gif');
+            $('#rank1img').attr('src', '/images/mk7.GIF');
             $('#rank1header').text('Drawn Game');
             $('#rank2header').text('Drawn Game');
 

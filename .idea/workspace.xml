@@ -24,23 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8967ca-80a0-4569-93a9-eea8a760c30b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/Toad.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mariokart.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mk10.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mk11.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mk5.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mk6.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mk7.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mk9.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/thprincesssp.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/mainOld.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pages/index.ejs" afterPath="$PROJECT_DIR$/views/pages/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/header.ejs" afterPath="$PROJECT_DIR$/views/partials/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/nav.ejs" afterPath="$PROJECT_DIR$/views/partials/nav.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
     </list>
     <ignored path="mariokart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,8 +71,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="436">
+              <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -666,12 +651,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483646804435</updated>
-      <workItem from="1483646805904" duration="6876000" />
+      <workItem from="1483646805904" duration="7001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6876000" />
+    <option name="totallyTimeSpent" value="7001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -795,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="436">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
