@@ -38,6 +38,13 @@ body {
   font-family: 'Bangers', cursive;
 }
 
+h1,h2,h3,h4,p{
+  color: #000;
+}
+h2,p{
+  font-size: 3rem;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -161,12 +168,6 @@ body {
 
 }
 
-h1,h2,h3,h4,p{
-  color: #000;
-}
-h2,p{
-  font-size: 3rem;
-}
 #rank1img,#rank2img{
   min-width: 90px;
 }
